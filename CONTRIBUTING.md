@@ -432,9 +432,7 @@ We use semantic versioning (MAJOR.MINOR.PATCH):
 
 ## 📞 Contact
 
-- **Project Maintainer**: valkyrie.liberty@example.com
-- **Technical Support**: valkyrie.liberty@example.com
-- **General Inquiries**: valkyrie.liberty@example.com
+- **Project Maintainer**: valkyrieofiicial@gmail.com
 
 ---
 
