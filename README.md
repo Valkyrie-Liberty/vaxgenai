@@ -241,13 +241,6 @@ We welcome contributions from the research community! See [CONTRIBUTING.md](CONT
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **Research Community**: IEDB, UniProt, and AlphaFold teams
-- **Funding**: NIH, NSF, and Gates Foundation support
-- **Collaborators**: 100+ researchers from 50+ institutions worldwide
-- **Open Source**: Built on PyTorch, scikit-learn, and Biopython
-
 ## 📞 Contact
 
 - **Project Lead**: Valkyrie-Liberty
