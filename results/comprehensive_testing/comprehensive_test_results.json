@@ -1,0 +1,1597 @@
+{
+  "neoantigen_identification": {
+    "mutations": [
+      {
+        "chromosome": "chr1",
+        "position": 1000000,
+        "reference": "A",
+        "alternate": "T",
+        "quality": 50.0,
+        "depth": 25,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr1",
+        "position": 2000000,
+        "reference": "G",
+        "alternate": "C",
+        "quality": 45.0,
+        "depth": 30,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr2",
+        "position": 1500000,
+        "reference": "C",
+        "alternate": "G",
+        "quality": 60.0,
+        "depth": 20,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr3",
+        "position": 3000000,
+        "reference": "T",
+        "alternate": "A",
+        "quality": 55.0,
+        "depth": 35,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr7",
+        "position": 5000000,
+        "reference": "A",
+        "alternate": "G",
+        "quality": 40.0,
+        "depth": 15,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr12",
+        "position": 8000000,
+        "reference": "G",
+        "alternate": "T",
+        "quality": 65.0,
+        "depth": 40,
+        "type": "SNV"
+      },
+      {
+        "chromosome": "chr17",
+        "position": 10000000,
+        "reference": "C",
+        "alternate": "T",
+        "quality": 70.0,
+        "depth": 45,
+        "type": "SNV"
+      }
+    ],
+    "hla_alleles": [
+      "HLA-A*02:01",
+      "HLA-A*01:01",
+      "HLA-B*07:02",
+      "HLA-B*08:01",
+      "HLA-C*07:01",
+      "HLA-C*07:02",
+      "HLA-DRB1*03:01",
+      "HLA-DRB1*15:01",
+      "HLA-DQB1*02:01",
+      "HLA-DQB1*06:02"
+    ],
+    "neoantigens": [
+      {
+        "mutation_id": "chr2_1500000_C_G",
+        "wild_type_peptide": "HCFMTRSR",
+        "mutant_peptide": "HCFMTRSR",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr2",
+        "transcript": "TRANSCRIPT_chr2",
+        "chromosome": "chr2",
+        "genomic_position": 1500000,
+        "expression_tpm": 12.8,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 87.52593680772965,
+            "percentile_rank": 49.1711868746884,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 432.95187963031736,
+            "percentile_rank": 70.35236440790158,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 731.5639402936015,
+            "percentile_rank": 80.88835782271934,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 359.0872552161555,
+            "percentile_rank": 4.845396497491327,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 7.699736213812867,
+            "percentile_rank": 42.620403841297495,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 562.256467540923,
+            "percentile_rank": 74.95481940299037,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr2_1500000_C_G",
+        "wild_type_peptide": "MFKEYWFTADL",
+        "mutant_peptide": "MFKEYWFTADL",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr2",
+        "transcript": "TRANSCRIPT_chr2",
+        "chromosome": "chr2",
+        "genomic_position": 1500000,
+        "expression_tpm": 12.8,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 77.35603102184687,
+            "percentile_rank": 49.85772525872538,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 50.47495353631201,
+            "percentile_rank": 86.90035278900905,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 6134.192460355549,
+            "percentile_rank": 35.394956633334075,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 8.704660482648823,
+            "percentile_rank": 80.93780780428516,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 54.75617439819981,
+            "percentile_rank": 47.29543165389316,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 662.6767413714549,
+            "percentile_rank": 75.75195489203114,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr12_8000000_G_T",
+        "wild_type_peptide": "NTGYRVSD",
+        "mutant_peptide": "NTGYRVSD",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr12",
+        "transcript": "TRANSCRIPT_chr12",
+        "chromosome": "chr12",
+        "genomic_position": 8000000,
+        "expression_tpm": 15.3,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 504.802378477789,
+            "percentile_rank": 43.945143451598014,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 279.9983031686366,
+            "percentile_rank": 27.835329514984796,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 2438.776037384816,
+            "percentile_rank": 67.9532499400658,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 8655.4623920772,
+            "percentile_rank": 17.55596305288305,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 141.28037441483335,
+            "percentile_rank": 47.12638107280799,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 4.6113979086001295,
+            "percentile_rank": 37.79374506973957,
+            "strong_binder": true,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr12_8000000_G_T",
+        "wild_type_peptide": "KRNFDEHHKS",
+        "mutant_peptide": "KRNFDEHHKS",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr12",
+        "transcript": "TRANSCRIPT_chr12",
+        "chromosome": "chr12",
+        "genomic_position": 8000000,
+        "expression_tpm": 15.3,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 631.6624821335452,
+            "percentile_rank": 66.20630750566362,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 6269.044445105323,
+            "percentile_rank": 24.704543603800253,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 18.2292196298812,
+            "percentile_rank": 47.32190130627525,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 4677.311687033031,
+            "percentile_rank": 66.75778078560799,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 250.56048803177237,
+            "percentile_rank": 26.5046278274096,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 22.888799642690618,
+            "percentile_rank": 60.224586663597776,
+            "strong_binder": true,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr12_8000000_G_T",
+        "wild_type_peptide": "TPPMDSGPLSA",
+        "mutant_peptide": "TPPMDSGPLSA",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr12",
+        "transcript": "TRANSCRIPT_chr12",
+        "chromosome": "chr12",
+        "genomic_position": 8000000,
+        "expression_tpm": 15.3,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 6.24533056512878,
+            "percentile_rank": 50.56497734918162,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 73.04703190126763,
+            "percentile_rank": 1.0324798198195095,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 328.6264950916485,
+            "percentile_rank": 84.47513840634574,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 57.73066147451329,
+            "percentile_rank": 17.728001756741463,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 739.251282102528,
+            "percentile_rank": 98.76621635820916,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 255.40410825884965,
+            "percentile_rank": 66.94311603027,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr17_10000000_C_T",
+        "wild_type_peptide": "EWVIFLAG",
+        "mutant_peptide": "EWVIFLAG",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr17",
+        "transcript": "TRANSCRIPT_chr17",
+        "chromosome": "chr17",
+        "genomic_position": 10000000,
+        "expression_tpm": 22.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 633.8467419043566,
+            "percentile_rank": 52.83233497719014,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 204.27496764622722,
+            "percentile_rank": 88.48093230649182,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 45.68157475888923,
+            "percentile_rank": 43.628962543083325,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 612.3958564470453,
+            "percentile_rank": 23.25856500726212,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 72.90500609378769,
+            "percentile_rank": 19.575466348330096,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 1234.5283339667355,
+            "percentile_rank": 10.424301924363256,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.9600000000000001
+      },
+      {
+        "mutation_id": "chr7_5000000_A_G",
+        "wild_type_peptide": "PSHHDRVYKPD",
+        "mutant_peptide": "PSHHDRVYKPD",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr7",
+        "transcript": "TRANSCRIPT_chr7",
+        "chromosome": "chr7",
+        "genomic_position": 5000000,
+        "expression_tpm": 8.7,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 1639.483818972094,
+            "percentile_rank": 1.428093820665488,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 128.99113388255242,
+            "percentile_rank": 27.156204132260875,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 22.661599119796985,
+            "percentile_rank": 24.028317488785778,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 23318.332494837967,
+            "percentile_rank": 65.76597887479608,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 892.6355980336049,
+            "percentile_rank": 95.6359570873342,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 384.11230669796726,
+            "percentile_rank": 73.13643511162536,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.908
+      },
+      {
+        "mutation_id": "chr1_1000000_A_T",
+        "wild_type_peptide": "DLCFLGKFK",
+        "mutant_peptide": "DLCFFGKFK",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 1000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 1282.0069566224481,
+            "percentile_rank": 93.8974908786816,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 1032.0366028010183,
+            "percentile_rank": 86.12231725146636,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 2814.9174864613474,
+            "percentile_rank": 59.71456350091263,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 520.4915997515095,
+            "percentile_rank": 80.41991051872746,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 36.57704154417969,
+            "percentile_rank": 4.176637474550837,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 2309.7066830995605,
+            "percentile_rank": 3.809326773781785,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7680000000000001
+      },
+      {
+        "mutation_id": "chr1_1000000_A_T",
+        "wild_type_peptide": "HYEMVYHQEA",
+        "mutant_peptide": "HYEMVYHQEA",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 1000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 15879.647108541676,
+            "percentile_rank": 36.94408138378365,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 461.09299502635554,
+            "percentile_rank": 40.620835636516695,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 33.44386723614545,
+            "percentile_rank": 55.24128805348683,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 4106.911428703976,
+            "percentile_rank": 77.53311255498996,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 3757.0674520033845,
+            "percentile_rank": 26.997262261063582,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 341.64176669694245,
+            "percentile_rank": 53.127110980820056,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.7680000000000001
+      },
+      {
+        "mutation_id": "chr1_2000000_G_C",
+        "wild_type_peptide": "NTEVECDP",
+        "mutant_peptide": "NTEVECDP",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 2000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 11.846353724099654,
+            "percentile_rank": 86.25086357278097,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 280.5918621520856,
+            "percentile_rank": 73.3387824941158,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 389.6779667292143,
+            "percentile_rank": 33.374832854803515,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 1304.443255640186,
+            "percentile_rank": 29.35544731023888,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 70.12320679524389,
+            "percentile_rank": 63.01107209354401,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 349.1805191551898,
+            "percentile_rank": 11.763050467069236,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.7680000000000001
+      },
+      {
+        "mutation_id": "chr1_2000000_G_C",
+        "wild_type_peptide": "RTQPLKSYI",
+        "mutant_peptide": "RTQPLKSYI",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 2000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 0.7737120254997301,
+            "percentile_rank": 45.472820150389936,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 129.1574527172912,
+            "percentile_rank": 1.6257395398002639,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 28.113692974974846,
+            "percentile_rank": 91.27294270019124,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 1806.0007478178838,
+            "percentile_rank": 13.254954159605937,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 197.30295797372762,
+            "percentile_rank": 57.770110315866965,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 3694.37097320715,
+            "percentile_rank": 48.64304143568074,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7680000000000001
+      },
+      {
+        "mutation_id": "chr1_2000000_G_C",
+        "wild_type_peptide": "SSTMATPWYKG",
+        "mutant_peptide": "SSTMATPWYKG",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 2000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 18.162299785920137,
+            "percentile_rank": 41.11014526959317,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 31.666163453999765,
+            "percentile_rank": 20.139474082385554,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 689.5848652341116,
+            "percentile_rank": 50.38038222868951,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 20.146876234408726,
+            "percentile_rank": 17.88043528565364,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 337.8780994442125,
+            "percentile_rank": 86.31110225933942,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 328.11982954003537,
+            "percentile_rank": 44.50115390682101,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.7680000000000001
+      },
+      {
+        "mutation_id": "chr2_1500000_C_G",
+        "wild_type_peptide": "TVDGNYTMT",
+        "mutant_peptide": "TVDGNYTMT",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr2",
+        "transcript": "TRANSCRIPT_chr2",
+        "chromosome": "chr2",
+        "genomic_position": 1500000,
+        "expression_tpm": 12.8,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 1011.3496139595994,
+            "percentile_rank": 94.42861535087798,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 64.22969974099773,
+            "percentile_rank": 0.35842871712689073,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 4345.534459922081,
+            "percentile_rank": 80.35874494573456,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 2746.5634622372795,
+            "percentile_rank": 89.9801820624744,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 182.16833971825156,
+            "percentile_rank": 92.6091718331005,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 754.573703760039,
+            "percentile_rank": 24.91899953218689,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr2_1500000_C_G",
+        "wild_type_peptide": "PVEANVRVNI",
+        "mutant_peptide": "PVEANVRVNI",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr2",
+        "transcript": "TRANSCRIPT_chr2",
+        "chromosome": "chr2",
+        "genomic_position": 1500000,
+        "expression_tpm": 12.8,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 1504.6337095113759,
+            "percentile_rank": 8.265375245473116,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 111.71784606211007,
+            "percentile_rank": 62.76655481628628,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 670.568169225048,
+            "percentile_rank": 21.61459426369381,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 5490.98815923194,
+            "percentile_rank": 31.391193633480864,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 2743.7713650443766,
+            "percentile_rank": 97.7227150244845,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 560.4395586680384,
+            "percentile_rank": 80.67313524942101,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr12_8000000_G_T",
+        "wild_type_peptide": "DMPPTKNSL",
+        "mutant_peptide": "DMPPTKNSL",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr12",
+        "transcript": "TRANSCRIPT_chr12",
+        "chromosome": "chr12",
+        "genomic_position": 8000000,
+        "expression_tpm": 15.3,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 57.51666557527546,
+            "percentile_rank": 15.797690308007372,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 371.6576481791748,
+            "percentile_rank": 24.48042443038926,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 120.41647093650596,
+            "percentile_rank": 90.15820331434603,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 9445.565833304297,
+            "percentile_rank": 75.68364472221127,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 677.4072187405256,
+            "percentile_rank": 88.62379425469096,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 176.13752444015225,
+            "percentile_rank": 41.15931844709434,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr17_10000000_C_T",
+        "wild_type_peptide": "SNANMAFRI",
+        "mutant_peptide": "SNANMAFRI",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr17",
+        "transcript": "TRANSCRIPT_chr17",
+        "chromosome": "chr17",
+        "genomic_position": 10000000,
+        "expression_tpm": 22.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 65.84893736311437,
+            "percentile_rank": 94.41548858021585,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 4407.15083723336,
+            "percentile_rank": 27.781458572794936,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 84.43360966623764,
+            "percentile_rank": 47.30618152958621,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 809.9821981393738,
+            "percentile_rank": 77.92539721700274,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 757.9778430083718,
+            "percentile_rank": 24.029911612994415,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 85.41784752451139,
+            "percentile_rank": 56.76714182223118,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr17_10000000_C_T",
+        "wild_type_peptide": "LKMFQWDYPL",
+        "mutant_peptide": "LKMFQWDYPL",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr17",
+        "transcript": "TRANSCRIPT_chr17",
+        "chromosome": "chr17",
+        "genomic_position": 10000000,
+        "expression_tpm": 22.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 3559.5556469616004,
+            "percentile_rank": 64.6973006551984,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 84.10139947350049,
+            "percentile_rank": 82.90544115365753,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 5162.996452334407,
+            "percentile_rank": 72.31907893227338,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 108.40830152105599,
+            "percentile_rank": 35.20171078698874,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 864.7369730891048,
+            "percentile_rank": 33.58054280648164,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 547.1510422882018,
+            "percentile_rank": 9.857905275850076,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr17_10000000_C_T",
+        "wild_type_peptide": "DSKAYVVWNDF",
+        "mutant_peptide": "DSKAYVVWNDF",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr17",
+        "transcript": "TRANSCRIPT_chr17",
+        "chromosome": "chr17",
+        "genomic_position": 10000000,
+        "expression_tpm": 22.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 86.24691640722828,
+            "percentile_rank": 86.3480276116209,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 49987.89605091688,
+            "percentile_rank": 76.6675519476941,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 1512.1939595522417,
+            "percentile_rank": 21.390320369691107,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 7279.626276251779,
+            "percentile_rank": 32.25821939719874,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 101.24614062266839,
+            "percentile_rank": 67.20836012791689,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 1120.6138509118089,
+            "percentile_rank": 32.567922526708756,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7600000000000001
+      },
+      {
+        "mutation_id": "chr7_5000000_A_G",
+        "wild_type_peptide": "MRITHWNS",
+        "mutant_peptide": "MRITHWNS",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr7",
+        "transcript": "TRANSCRIPT_chr7",
+        "chromosome": "chr7",
+        "genomic_position": 5000000,
+        "expression_tpm": 8.7,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 450.6511630992116,
+            "percentile_rank": 59.578570555776864,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 21218.492811193646,
+            "percentile_rank": 46.45177758803286,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 3221.842405261989,
+            "percentile_rank": 34.08264246690712,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 251.80692825985028,
+            "percentile_rank": 96.59600325830324,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 196.01413482545072,
+            "percentile_rank": 75.15575474811925,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 1463.1423816959655,
+            "percentile_rank": 85.13463457874198,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7080000000000001
+      },
+      {
+        "mutation_id": "chr7_5000000_A_G",
+        "wild_type_peptide": "MVQEMLYPC",
+        "mutant_peptide": "MVQEMLYPC",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr7",
+        "transcript": "TRANSCRIPT_chr7",
+        "chromosome": "chr7",
+        "genomic_position": 5000000,
+        "expression_tpm": 8.7,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 397.2831232835569,
+            "percentile_rank": 58.33487962475239,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 146.37981296915763,
+            "percentile_rank": 13.722476085744638,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 2473.731330981657,
+            "percentile_rank": 87.30259847514628,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 1484.6896536200684,
+            "percentile_rank": 61.22707414743076,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 70.4096669781042,
+            "percentile_rank": 70.02934010868573,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 2675.486393647196,
+            "percentile_rank": 93.08155349481774,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7080000000000001
+      },
+      {
+        "mutation_id": "chr7_5000000_A_G",
+        "wild_type_peptide": "IYQVGSYWMH",
+        "mutant_peptide": "IYQVGSYWMH",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr7",
+        "transcript": "TRANSCRIPT_chr7",
+        "chromosome": "chr7",
+        "genomic_position": 5000000,
+        "expression_tpm": 8.7,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 6178.331024497056,
+            "percentile_rank": 6.916635120404246,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 708.292680566448,
+            "percentile_rank": 63.7183317456912,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 97566.6369236249,
+            "percentile_rank": 10.947664709492477,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 56.15353477713364,
+            "percentile_rank": 21.581834625590034,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 1674.6795503807336,
+            "percentile_rank": 42.515523855565604,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 2931.3312424512205,
+            "percentile_rank": 36.48576534480365,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.7080000000000001
+      },
+      {
+        "mutation_id": "chr3_3000000_T_A",
+        "wild_type_peptide": "KYLHQCIN",
+        "mutant_peptide": "KYLHQCIN",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr3",
+        "transcript": "TRANSCRIPT_chr3",
+        "chromosome": "chr3",
+        "genomic_position": 3000000,
+        "expression_tpm": 3.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 8566.691100231717,
+            "percentile_rank": 63.55508524542181,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 18.354146905219455,
+            "percentile_rank": 4.8723675963023965,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 286.84298964363404,
+            "percentile_rank": 35.53440140465523,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 33.844801900687074,
+            "percentile_rank": 92.58771535214795,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 476.11377361641115,
+            "percentile_rank": 62.72169958626693,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 8.74844713906307,
+            "percentile_rank": 50.98668706259304,
+            "strong_binder": true,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.684
+      },
+      {
+        "mutation_id": "chr3_3000000_T_A",
+        "wild_type_peptide": "PDDGFLPCF",
+        "mutant_peptide": "PDDGLLPCF",
+        "length": 9,
+        "mutation_position": 4,
+        "gene": "GENE_chr3",
+        "transcript": "TRANSCRIPT_chr3",
+        "chromosome": "chr3",
+        "genomic_position": 3000000,
+        "expression_tpm": 3.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 666.0766447139017,
+            "percentile_rank": 52.12169021967499,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 728.3007355597632,
+            "percentile_rank": 89.62733037326245,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 83.51985784169858,
+            "percentile_rank": 48.57231084401262,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 14.459318378803625,
+            "percentile_rank": 12.332251983738319,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 34.18281856198627,
+            "percentile_rank": 38.54360946024159,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 27.86589099162562,
+            "percentile_rank": 88.7456600615264,
+            "strong_binder": true,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.684
+      },
+      {
+        "mutation_id": "chr3_3000000_T_A",
+        "wild_type_peptide": "PKITHNTHPP",
+        "mutant_peptide": "PKITHNTHPP",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr3",
+        "transcript": "TRANSCRIPT_chr3",
+        "chromosome": "chr3",
+        "genomic_position": 3000000,
+        "expression_tpm": 3.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 1277.4354808919945,
+            "percentile_rank": 56.96806606887092,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 204.07027517211722,
+            "percentile_rank": 36.77437326988008,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 3.6122029877535393,
+            "percentile_rank": 27.721037478509093,
+            "strong_binder": true,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 114.03415611326358,
+            "percentile_rank": 17.68486881814789,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 97.02960640921688,
+            "percentile_rank": 9.67957245849499,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 83869.21735598771,
+            "percentile_rank": 72.03415063139518,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.684
+      },
+      {
+        "mutation_id": "chr1_1000000_A_T",
+        "wild_type_peptide": "VHMTLGKPKFA",
+        "mutant_peptide": "VHMTLGKPKFA",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 1000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 2488.5268137688513,
+            "percentile_rank": 44.87659501233866,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 954.4567231831692,
+            "percentile_rank": 1.5773060964802577,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 1635.8545532092485,
+            "percentile_rank": 43.95121476418571,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 142.5574744000111,
+            "percentile_rank": 8.079239459458353,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:01": {
+            "ic50": 2607.673050033023,
+            "percentile_rank": 54.69862895582217,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 1208.1667950143149,
+            "percentile_rank": 93.22385054394114,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.5680000000000001
+      },
+      {
+        "mutation_id": "chr1_2000000_G_C",
+        "wild_type_peptide": "GCHPLDAHHP",
+        "mutant_peptide": "GCHPLDAHHP",
+        "length": 10,
+        "mutation_position": 5,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 2000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 111.00314360654104,
+            "percentile_rank": 30.918302898225512,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-A*01:01": {
+            "ic50": 66.4646034956005,
+            "percentile_rank": 33.882595053049535,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*07:02": {
+            "ic50": 226.5045207331751,
+            "percentile_rank": 24.24249485807043,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-B*08:01": {
+            "ic50": 884.0039299543016,
+            "percentile_rank": 74.02242898112888,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 366.1258430769825,
+            "percentile_rank": 8.42117579544418,
+            "strong_binder": false,
+            "weak_binder": true
+          },
+          "HLA-C*07:02": {
+            "ic50": 1622.468938256281,
+            "percentile_rank": 83.69199999627484,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.5680000000000001
+      },
+      {
+        "mutation_id": "chr3_3000000_T_A",
+        "wild_type_peptide": "PVTNFNEAPHD",
+        "mutant_peptide": "PVTNFNEAPHD",
+        "length": 11,
+        "mutation_position": 5,
+        "gene": "GENE_chr3",
+        "transcript": "TRANSCRIPT_chr3",
+        "chromosome": "chr3",
+        "genomic_position": 3000000,
+        "expression_tpm": 3.1,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 10962.822749777428,
+            "percentile_rank": 26.10391759640862,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 1102.4888098162503,
+            "percentile_rank": 51.06358346588266,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 2477.5768122451077,
+            "percentile_rank": 69.5341276170397,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 633.9355940658658,
+            "percentile_rank": 77.42553189190363,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 2038.768069524192,
+            "percentile_rank": 74.0009805141576,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 74.49952628646655,
+            "percentile_rank": 92.28624543798168,
+            "strong_binder": false,
+            "weak_binder": true
+          }
+        },
+        "neoantigen_score": 0.48400000000000004
+      },
+      {
+        "mutation_id": "chr1_1000000_A_T",
+        "wild_type_peptide": "VHATACEG",
+        "mutant_peptide": "VHATTCEG",
+        "length": 8,
+        "mutation_position": 4,
+        "gene": "GENE_chr1",
+        "transcript": "TRANSCRIPT_chr1",
+        "chromosome": "chr1",
+        "genomic_position": 1000000,
+        "expression_tpm": 5.2,
+        "mhc_binding": {
+          "HLA-A*02:01": {
+            "ic50": 3750.5605259295467,
+            "percentile_rank": 0.14037325058255945,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-A*01:01": {
+            "ic50": 1280.3147093591103,
+            "percentile_rank": 69.26323888606109,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*07:02": {
+            "ic50": 2409.153031773961,
+            "percentile_rank": 85.21700317115446,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-B*08:01": {
+            "ic50": 675.9586679149957,
+            "percentile_rank": 30.215415711678062,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:01": {
+            "ic50": 1018.6617756411447,
+            "percentile_rank": 2.829832098388474,
+            "strong_binder": false,
+            "weak_binder": false
+          },
+          "HLA-C*07:02": {
+            "ic50": 748.0613312837256,
+            "percentile_rank": 64.23891350286743,
+            "strong_binder": false,
+            "weak_binder": false
+          }
+        },
+        "neoantigen_score": 0.40800000000000003
+      }
+    ],
+    "report_path": "/home/ubuntu/vaxgenai/results/neoantigens/neoantigen_report.md",
+    "data_path": "/home/ubuntu/vaxgenai/results/neoantigens/neoantigens.csv",
+    "summary": {
+      "total_mutations": 7,
+      "total_neoantigens": 28,
+      "high_score_neoantigens": 21,
+      "hla_alleles_count": 10
+    }
+  },
+  "mhc_class_ii_prediction": {
+    "total_epitopes": 11322,
+    "promiscuous_epitopes": 11322,
+    "high_score_epitopes": 10988,
+    "coverage_results": {
+      "World": {
+        "coverage_percentage": 80.7,
+        "covered_individuals": 8070,
+        "total_simulations": 10000
+      }
+    },
+    "report_path": "/home/ubuntu/vaxgenai/results/mhc_ii/mhc_ii_report.md"
+  },
+  "immunogenicity_prediction": {
+    "total_peptides": 10,
+    "high_immunogenicity": 0,
+    "average_tcr_binding": 0.41307637970133343,
+    "average_immunogenicity": 0.47534169782989055,
+    "report_path": "/home/ubuntu/vaxgenai/results/immunogenicity/immunogenicity_report.md"
+  },
+  "immune_evasion_modeling": {
+    "leukemia": {
+      "total_epitopes": 4,
+      "resistant_epitopes": 4,
+      "average_resistance": 0.6596799998221496,
+      "report_path": "/home/ubuntu/vaxgenai/results/immune_evasion/leukemia/evasion_resistance_report.md"
+    },
+    "pancreatic_cancer": {
+      "total_epitopes": 4,
+      "resistant_epitopes": 0,
+      "average_resistance": 0.5049047882752105,
+      "report_path": "/home/ubuntu/vaxgenai/results/immune_evasion/pancreatic_cancer/evasion_resistance_report.md"
+    },
+    "hiv": {
+      "total_epitopes": 4,
+      "resistant_epitopes": 0,
+      "average_resistance": 0.3919189042011522,
+      "report_path": "/home/ubuntu/vaxgenai/results/immune_evasion/hiv/evasion_resistance_report.md"
+    }
+  },
+  "experimental_validation": {
+    "experimental_results_processed": 5,
+    "valid_results": 5,
+    "overall_accuracy": 0.2,
+    "total_validation_cost": 9500,
+    "report_path": "/home/ubuntu/vaxgenai/results/experimental_validation/validation_integration_report.md"
+  },
+  "conformational_bcell_prediction": {
+    "total_epitopes": 0,
+    "high_confidence_epitopes": 0,
+    "average_epitope_score": 0,
+    "average_accessibility": 0,
+    "report_path": "/home/ubuntu/vaxgenai/results/conformational_epitopes/conformational_epitope_report.md"
+  },
+  "personalized_population_coverage": {
+    "patient_coverage": 60.0,
+    "patient_coverage_quality": "moderate",
+    "global_optimization_epitopes": 3,
+    "average_global_coverage": 0.6381000000000001,
+    "equity_score": 0.9957316564,
+    "patient_report_path": "/home/ubuntu/vaxgenai/results/population_coverage/patient_coverage_report.md",
+    "global_report_path": "/home/ubuntu/vaxgenai/results/population_coverage/global_coverage_optimization_report.md"
+  },
+  "vaccine_delivery_integration": {
+    "platforms_analyzed": 4,
+    "top_recommendation": "mRNA",
+    "best_efficacy_platform": "mRNA",
+    "lowest_cost_platform": "mRNA",
+    "report_path": "/home/ubuntu/vaxgenai/results/delivery_systems/delivery_system_integration_report.md"
+  },
+  "cloud_scalability": {
+    "total_sequences": 100,
+    "successful_sequences": 100,
+    "processing_time": 1.1016409397125244,
+    "throughput": 90.77367806074383,
+    "success_rate": 1.0,
+    "report_path": "/home/ubuntu/vaxgenai/results/scalability/scalability_analysis_report.md"
+  }
+}

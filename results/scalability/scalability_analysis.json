@@ -1,0 +1,11 @@
+{
+  "total_sequences": 100,
+  "successful_sequences": 100,
+  "processing_time": 1.1016409397125244,
+  "throughput": 90.77367806074383,
+  "success_rate": 1.0,
+  "peak_cpu": 75.0,
+  "peak_memory": 60.0,
+  "avg_cpu": 45.0,
+  "avg_memory": 35.0
+}

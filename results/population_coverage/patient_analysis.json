@@ -1,0 +1,152 @@
+{
+  "patient_id": "P001",
+  "hla_profile": {
+    "class_i": {
+      "A": [
+        "A*02:01",
+        "A*01:01"
+      ],
+      "B": [
+        "B*07:02",
+        "B*08:01"
+      ],
+      "C": [
+        "C*07:01",
+        "C*08:02"
+      ]
+    },
+    "class_ii": {
+      "DRB1": [
+        "DRB1*03:01",
+        "DRB1*07:01"
+      ],
+      "DQB1": [
+        "DQB1*02:01",
+        "DQB1*03:01"
+      ],
+      "DPB1": []
+    },
+    "typing_method": "NGS",
+    "resolution": "4-digit"
+  },
+  "population": "european",
+  "epitope_coverage": {
+    "total_epitopes": 5,
+    "covered_epitopes": 3,
+    "class_i_coverage": {},
+    "class_ii_coverage": {},
+    "epitope_details": [
+      {
+        "epitope_id": "epitope_1",
+        "sequence": "YLQPRTFLL",
+        "covered": true,
+        "binding_alleles": [
+          "A*02:01"
+        ],
+        "prediction_score": 0.85
+      },
+      {
+        "epitope_id": "epitope_2",
+        "sequence": "KIADYNYKL",
+        "covered": true,
+        "binding_alleles": [
+          "A*02:01"
+        ],
+        "prediction_score": 0.78
+      },
+      {
+        "epitope_id": "epitope_3",
+        "sequence": "SLYNTVATL",
+        "covered": true,
+        "binding_alleles": [
+          "A*02:01"
+        ],
+        "prediction_score": 0.72
+      },
+      {
+        "epitope_id": "epitope_4",
+        "sequence": "GILGFVFTL",
+        "covered": false,
+        "binding_alleles": [],
+        "prediction_score": 0.68
+      },
+      {
+        "epitope_id": "epitope_5",
+        "sequence": "FIAGLIAIV",
+        "covered": false,
+        "binding_alleles": [],
+        "prediction_score": 0.65
+      }
+    ],
+    "coverage_percentage": 60.0
+  },
+  "population_comparison": {
+    "patient_coverage": 60.0,
+    "population_average": 35.44,
+    "relative_coverage": 1.6930022573363432,
+    "coverage_category": "above_average"
+  },
+  "coverage_gaps": [
+    {
+      "epitope_id": "epitope_4",
+      "sequence": "GILGFVFTL",
+      "prediction_score": 0.68,
+      "gap_severity": 1.0,
+      "alternative_alleles": [
+        "B*08:01"
+      ]
+    },
+    {
+      "epitope_id": "epitope_5",
+      "sequence": "FIAGLIAIV",
+      "prediction_score": 0.65,
+      "gap_severity": 0.9750000000000001,
+      "alternative_alleles": [
+        "A*01:01",
+        "A*03:01",
+        "B*07:02"
+      ]
+    }
+  ],
+  "personalized_recommendations": [
+    {
+      "type": "vaccine_strategy",
+      "priority": "medium",
+      "recommendation": "Consider epitope optimization",
+      "rationale": "Good coverage (60.0%) but room for improvement"
+    },
+    {
+      "type": "hla_consideration",
+      "priority": "medium",
+      "recommendation": "Special consideration for rare HLA alleles: C*07:01, C*08:02",
+      "rationale": "Rare alleles may require specialized epitope selection"
+    },
+    {
+      "type": "delivery_system",
+      "priority": "medium",
+      "recommendation": "Peptide vaccine with adjuvant",
+      "rationale": "Limited epitopes suitable for peptide approach",
+      "delivery_details": {
+        "platform": "peptide",
+        "advantages": [
+          "Precise targeting",
+          "Safety profile"
+        ],
+        "considerations": [
+          "Adjuvant selection",
+          "Peptide stability"
+        ]
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_epitopes": 5,
+    "covered_epitopes": 3,
+    "coverage_percentage": 60.0,
+    "coverage_quality": "moderate",
+    "key_metrics": {
+      "high_confidence_covered": 3,
+      "total_binding_events": 3
+    }
+  }
+}

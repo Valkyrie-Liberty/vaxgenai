@@ -1,0 +1,28 @@
+# Core dependencies
+numpy>=1.20.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Bioinformatics libraries
+biopython>=1.79
+epytope>=3.4.0  # Formerly FRED 2, for epitope prediction
+pyhmmer>=0.6.0  # For sequence analysis
+
+# Web framework
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+jinja2>=3.0.0
+
+# Machine learning
+tensorflow>=2.8.0
+torch>=1.10.0
+
+# Utilities
+tqdm>=4.62.0
+requests>=2.26.0
+python-multipart>=0.0.5
+aiofiles>=0.7.0
+

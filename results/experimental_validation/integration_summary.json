@@ -1,0 +1,173 @@
+{
+  "total_results": 5,
+  "valid_results": 5,
+  "performance_metrics": {
+    "total_experiments": 5,
+    "overall_accuracy": 0.2,
+    "assay_specific": {
+      "elispot": {
+        "total_experiments": 1,
+        "positive_experiments": 1,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mean_result_value": 75.0
+      },
+      "tetramer_staining": {
+        "total_experiments": 1,
+        "positive_experiments": 1,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mean_result_value": 0.15
+      },
+      "cytotoxicity_assay": {
+        "total_experiments": 1,
+        "positive_experiments": 1,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mean_result_value": 25.0
+      },
+      "elisa": {
+        "total_experiments": 1,
+        "positive_experiments": 0,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mean_result_value": 0.3
+      },
+      "flow_cytometry": {
+        "total_experiments": 1,
+        "positive_experiments": 1,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "mean_result_value": 1.2
+      }
+    }
+  },
+  "model_feedback": {
+    "overall_assessment": "Poor prediction performance, major model revision required",
+    "strengths": [],
+    "weaknesses": [
+      "Poor performance in elispot predictions",
+      "Poor performance in tetramer_staining predictions",
+      "Poor performance in cytotoxicity_assay predictions",
+      "Poor performance in elisa predictions",
+      "Poor performance in flow_cytometry predictions"
+    ],
+    "improvement_suggestions": [
+      "Increase training data diversity",
+      "Incorporate additional biochemical features",
+      "Implement ensemble methods",
+      "Add experimental validation feedback loop",
+      "Reduce false negative rate by decreasing prediction stringency"
+    ],
+    "feature_importance_updates": {
+      "peptide_length": 0.15,
+      "hydrophobicity": 0.2,
+      "charge_distribution": 0.18,
+      "aromatic_content": 0.12,
+      "mhc_binding_affinity": 0.25,
+      "expression_level": 0.1
+    },
+    "training_data_recommendations": [
+      "Collect more elispot experimental data for model training",
+      "Collect more tetramer_staining experimental data for model training",
+      "Collect more cytotoxicity_assay experimental data for model training",
+      "Collect more elisa experimental data for model training",
+      "Collect more flow_cytometry experimental data for model training"
+    ]
+  },
+  "recommendations": [
+    {
+      "type": "assay_expansion",
+      "assay": "elispot",
+      "priority": "high",
+      "rationale": "Limited elispot data available for validation",
+      "suggested_experiments": 10
+    },
+    {
+      "type": "assay_expansion",
+      "assay": "tetramer_staining",
+      "priority": "high",
+      "rationale": "Limited tetramer_staining data available for validation",
+      "suggested_experiments": 10
+    },
+    {
+      "type": "assay_expansion",
+      "assay": "cytotoxicity_assay",
+      "priority": "high",
+      "rationale": "Limited cytotoxicity_assay data available for validation",
+      "suggested_experiments": 10
+    },
+    {
+      "type": "assay_expansion",
+      "assay": "elisa",
+      "priority": "high",
+      "rationale": "Limited elisa data available for validation",
+      "suggested_experiments": 10
+    },
+    {
+      "type": "assay_expansion",
+      "assay": "flow_cytometry",
+      "priority": "high",
+      "rationale": "Limited flow_cytometry data available for validation",
+      "suggested_experiments": 10
+    },
+    {
+      "type": "high_confidence_validation",
+      "priority": "medium",
+      "rationale": "Validate high-confidence predictions to confirm model accuracy",
+      "suggested_experiments": 20,
+      "selection_criteria": "prediction_score > 0.8"
+    },
+    {
+      "type": "edge_case_validation",
+      "priority": "medium",
+      "rationale": "Validate predictions near decision boundaries",
+      "suggested_experiments": 15,
+      "selection_criteria": "0.4 < prediction_score < 0.6"
+    },
+    {
+      "type": "disease_specific_validation",
+      "disease": "leukemia",
+      "priority": "high",
+      "rationale": "Validate neoantigen predictions in leukemia patient samples",
+      "suggested_experiments": 25,
+      "assays": [
+        "elispot",
+        "tetramer_staining"
+      ]
+    },
+    {
+      "type": "disease_specific_validation",
+      "disease": "pancreatic_cancer",
+      "priority": "high",
+      "rationale": "Validate epitope predictions in immunosuppressive tumor microenvironment",
+      "suggested_experiments": 30,
+      "assays": [
+        "elispot",
+        "cytotoxicity_assay",
+        "flow_cytometry"
+      ]
+    },
+    {
+      "type": "disease_specific_validation",
+      "disease": "hiv",
+      "priority": "high",
+      "rationale": "Validate conserved epitope predictions across HIV strains",
+      "suggested_experiments": 20,
+      "assays": [
+        "elispot",
+        "elisa"
+      ]
+    }
+  ]
+}

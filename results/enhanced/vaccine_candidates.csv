@@ -1,0 +1,95 @@
+type,sequence,length,epitopes,num_epitopes,protein_sequence,mrna_sequence,gc_content
+subunit,SLIDLQELGGPGPGQTRAGCLIGAGPGPGDPFLGVYYHKNGPGPGDEDDSEPVLGPGPGVVFLHVTYVGPGPGSANNCTFEYVSGPGPGNNTVYDPLQPE,100.0,"[protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                          1196
+end_position                            1204
+peptide                            SLIDLQELG
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-A*03:01
+prediction_score                    0.999989
+prediction_method                  NetMHCpan
+length                                     9
+score                               0.999989
+sequence                           SLIDLQELG
+type                                  T-cell
+Name: 5891, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                           644
+end_position                             653
+peptide                           QTRAGCLIGA
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-B*07:02
+prediction_score                    0.999947
+prediction_method                  NetMHCpan
+length                                    10
+score                               0.999947
+sequence                          QTRAGCLIGA
+type                                  T-cell
+Name: 9491, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                           138
+end_position                             148
+peptide                          DPFLGVYYHKN
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-B*44:02
+prediction_score                    0.999881
+prediction_method                  NetMHCpan
+length                                    11
+score                               0.999881
+sequence                         DPFLGVYYHKN
+type                                  T-cell
+Name: 13221, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                          1257
+end_position                            1265
+peptide                            DEDDSEPVL
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-B*44:02
+prediction_score                    0.999796
+prediction_method                  NetMHCpan
+length                                     9
+score                               0.999796
+sequence                           DEDDSEPVL
+type                                  T-cell
+Name: 6205, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                          1060
+end_position                            1068
+peptide                            VVFLHVTYV
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-A*03:01
+prediction_score                    0.999785
+prediction_method                  NetMHCpan
+length                                     9
+score                               0.999785
+sequence                           VVFLHVTYV
+type                                  T-cell
+Name: 5200, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                           162
+end_position                             172
+peptide                          SANNCTFEYVS
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-A*03:01
+prediction_score                    0.999768
+prediction_method                  NetMHCpan
+length                                    11
+score                               0.999768
+sequence                         SANNCTFEYVS
+type                                  T-cell
+Name: 13334, dtype: object, protein_id           sp|P0DTC2.1|SPIKE_SARS2
+start_position                          1134
+end_position                            1144
+peptide                          NNTVYDPLQPE
+epitope_type                          T-cell
+mhc_class                                  I
+mhc_allele                       HLA-B*44:02
+prediction_score                    0.999765
+prediction_method                  NetMHCpan
+length                                    11
+score                               0.999765
+sequence                         NNTVYDPLQPE
+type                                  T-cell
+Name: 18184, dtype: object]",7.0,,,
+mRNA,,415.0,,,SLIDLQELGGPGPGQTRAGCLIGAGPGPGDPFLGVYYHKNGPGPGDEDDSEPVLGPGPGVVFLHVTYVGPGPGSANNCTFEYVSGPGPGNNTVYDPLQPE,GGGAAATAAGAGAGAAAAGAAGAGTAAGAAGAAATATAAGACCACCATGAGCCTGATTGATCTTCAGGAACTCGGCGGTCCAGGTCCCGGTCAAACACGCGCCGGTTGTCTCATCGGCGCAGGCCCTGGCCCTGGCGACCCCTTCTTGGGGGTTTATTATCACAAGAATGGCCCCGGGCCAGGCGACGAAGACGATAGCGAACCTGTCCTGGGCCCCGGCCCTGGCGTTGTGTTTCTTCACGTGACCTACGTGGGTCCTGGTCCTGGCAGCGCTAATAACTGTACTTTCGAGTATGTCTCTGGTCCTGGACCAGGAAACAATACAGTCTATGATCCTCTGCAGCCTGAATGATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTAAAAAAAAAAAAAAAAAAAAAA,0.4650602409638554
+peptide,,,"[{'protein_id': 'sp|P0DTC2.1|SPIKE_SARS2', 'start_position': 1196, 'end_position': 1204, 'peptide': 'SLIDLQELG', 'epitope_type': 'T-cell', 'mhc_class': 'I', 'mhc_allele': 'HLA-A*03:01', 'prediction_score': 0.9999890273347352, 'prediction_method': 'NetMHCpan', 'length': 9, 'score': 0.9999890273347352, 'sequence': 'SLIDLQELG', 'type': 'T-cell'}, {'protein_id': 'sp|P0DTC2.1|SPIKE_SARS2', 'start_position': 644, 'end_position': 653, 'peptide': 'QTRAGCLIGA', 'epitope_type': 'T-cell', 'mhc_class': 'I', 'mhc_allele': 'HLA-B*07:02', 'prediction_score': 0.9999468952870112, 'prediction_method': 'NetMHCpan', 'length': 10, 'score': 0.9999468952870112, 'sequence': 'QTRAGCLIGA', 'type': 'T-cell'}, {'protein_id': 'sp|P0DTC2.1|SPIKE_SARS2', 'start_position': 138, 'end_position': 148, 'peptide': 'DPFLGVYYHKN', 'epitope_type': 'T-cell', 'mhc_class': 'I', 'mhc_allele': 'HLA-B*44:02', 'prediction_score': 0.999881008060913, 'prediction_method': 'NetMHCpan', 'length': 11, 'score': 0.999881008060913, 'sequence': 'DPFLGVYYHKN', 'type': 'T-cell'}, {'protein_id': 'sp|P0DTC2.1|SPIKE_SARS2', 'start_position': 1257, 'end_position': 1265, 'peptide': 'DEDDSEPVL', 'epitope_type': 'T-cell', 'mhc_class': 'I', 'mhc_allele': 'HLA-B*44:02', 'prediction_score': 0.9997960612281721, 'prediction_method': 'NetMHCpan', 'length': 9, 'score': 0.9997960612281721, 'sequence': 'DEDDSEPVL', 'type': 'T-cell'}, {'protein_id': 'sp|P0DTC2.1|SPIKE_SARS2', 'start_position': 1060, 'end_position': 1068, 'peptide': 'VVFLHVTYV', 'epitope_type': 'T-cell', 'mhc_class': 'I', 'mhc_allele': 'HLA-A*03:01', 'prediction_score': 0.9997848427605105, 'prediction_method': 'NetMHCpan', 'length': 9, 'score': 0.9997848427605105, 'sequence': 'VVFLHVTYV', 'type': 'T-cell'}]",5.0,,,

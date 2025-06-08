@@ -1,0 +1,892 @@
+{
+  "vaccine_designs": {
+    "mRNA": {
+      "platform": "mRNA",
+      "selected_epitopes": [
+        {
+          "id": "epitope_1",
+          "sequence": "YLQPRTFLL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.85
+        },
+        {
+          "id": "epitope_2",
+          "sequence": "KIADYNYKL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.78
+        },
+        {
+          "id": "epitope_3",
+          "sequence": "SLYNTVATL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.72
+        },
+        {
+          "id": "epitope_4",
+          "sequence": "GILGFVFTL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.68
+        },
+        {
+          "id": "epitope_5",
+          "sequence": "FIAGLIAIV",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.65
+        }
+      ],
+      "mrna_sequence": {
+        "length": 243,
+        "gc_content": 65.4320987654321,
+        "codon_optimization_score": 0.85,
+        "sequence": "ATGAAGTGGGTGACCTTCATCAGCCTGCTGTTCCTGTTTCTGAGCGCCGCCAGAAGCTACCTGCAGCCCCGCACCTTCCTGCTGGGCGGCAGCGGCAAGA..."
+      },
+      "stability_metrics": {
+        "overall_stability_score": 0.678079012345679,
+        "gc_content": 65.4320987654321,
+        "predicted_half_life_hours": 28.273896296296297,
+        "degradation_resistance": "low",
+        "storage_stability": "good"
+      },
+      "formulation": {
+        "composition": {
+          "ionizable_lipid": "ALC-0315",
+          "helper_lipid": "DSPC",
+          "cholesterol": "cholesterol",
+          "peg_lipid": "ALC-0159",
+          "molar_ratios": [
+            50,
+            10,
+            38.5,
+            1.5
+          ],
+          "n_p_ratio": 6.0
+        },
+        "parameters": {
+          "particle_size_nm": 80,
+          "pdi": 0.1,
+          "zeta_potential_mv": -5,
+          "encapsulation_efficiency": 0.85,
+          "mrna_concentration_mg_ml": 1.0,
+          "buffer": "PBS_pH_7.4",
+          "osmolality_mosm_kg": 300
+        },
+        "stability_profile": {
+          "storage_temp_c": -70,
+          "shelf_life_months": 6,
+          "freeze_thaw_cycles": 1
+        },
+        "manufacturing_complexity": "medium",
+        "cost_impact": "moderate"
+      },
+      "manufacturing": {
+        "synthesis_method": "in_vitro_transcription",
+        "template_dna_required": true,
+        "purification_steps": [
+          "DNase_treatment",
+          "column_chromatography",
+          "ultrafiltration"
+        ],
+        "yield_percentage": 65,
+        "purity_percentage": 95,
+        "endotoxin_level_eu_ml": 0.1,
+        "production_time_days": 7,
+        "batch_size_doses": 10000,
+        "cost_per_dose_usd": 15.0,
+        "scalability": "high",
+        "quality_control_tests": [
+          "identity_sequencing",
+          "purity_hplc",
+          "integrity_gel_electrophoresis",
+          "endotoxin_lal",
+          "sterility"
+        ]
+      },
+      "predicted_efficacy": {
+        "predicted_efficacy": 1.0,
+        "confidence_interval": [
+          0.9,
+          1.1
+        ],
+        "factors": {
+          "epitope_quality": 0.736,
+          "stability_contribution": 0.13561580246913582,
+          "platform_bonus": 0.15
+        },
+        "expected_immune_response": {
+          "antibody_response": "strong",
+          "cd8_response": "strong",
+          "cd4_response": "moderate",
+          "memory_formation": "good"
+        }
+      },
+      "safety_profile": {
+        "overall_safety_score": 0.85,
+        "known_risks": [
+          "injection_site_reactions",
+          "mild_systemic_reactions",
+          "rare_allergic_reactions"
+        ],
+        "contraindications": [
+          "severe_immunocompromise",
+          "known_peg_allergy"
+        ],
+        "special_populations": {
+          "pregnancy": "use_with_caution",
+          "pediatric": "age_dependent",
+          "elderly": "generally_safe",
+          "immunocompromised": "reduced_efficacy_expected"
+        },
+        "long_term_safety": "good_profile_expected",
+        "regulatory_precedent": "established_covid_vaccines"
+      },
+      "regulatory_considerations": {
+        "regulatory_pathway": "biologics_license_application",
+        "precedent": "covid_mrna_vaccines",
+        "key_requirements": [
+          "sequence_characterization",
+          "manufacturing_controls",
+          "nonclinical_studies",
+          "clinical_trials_phase_1_3"
+        ],
+        "timeline_estimate_months": 36,
+        "major_regulatory_bodies": [
+          "FDA",
+          "EMA",
+          "PMDA",
+          "Health_Canada"
+        ],
+        "special_considerations": [
+          "novel_antigen_characterization",
+          "immunogenicity_assessment",
+          "duration_of_immunity"
+        ]
+      }
+    },
+    "viral_vector": {
+      "platform": "viral_vector",
+      "selected_epitopes": [
+        {
+          "id": "epitope_1",
+          "sequence": "YLQPRTFLL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.85
+        },
+        {
+          "id": "epitope_2",
+          "sequence": "KIADYNYKL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.78
+        },
+        {
+          "id": "epitope_3",
+          "sequence": "SLYNTVATL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.72
+        },
+        {
+          "id": "epitope_4",
+          "sequence": "GILGFVFTL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.68
+        },
+        {
+          "id": "epitope_5",
+          "sequence": "FIAGLIAIV",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.65
+        }
+      ],
+      "vector_system": {
+        "vector_type": "adenovirus_5",
+        "properties": {
+          "immunogenicity": 0.9,
+          "safety": 0.8,
+          "manufacturing": 0.7,
+          "regulatory": 0.9,
+          "pre_existing_immunity": 0.3
+        },
+        "capacity_bp": 8000,
+        "tropism": "broad",
+        "replication": "replication_deficient"
+      },
+      "insert_design": {
+        "promoter": "CMV_immediate_early",
+        "signal_peptide": "tissue_plasminogen_activator",
+        "epitope_cassette": "YLQPRTFLLGGSGKIADYNYKLGGSGSLYNTVATLGGSGGILGFVFTLGGSGFIAGLIAIV",
+        "kozak_sequence": "GCCACC",
+        "polya_signal": "SV40_polya",
+        "total_length_bp": 783
+      },
+      "vector_assessment": {
+        "pre_existing_immunity": {
+          "prevalence": 0.3,
+          "impact_on_efficacy": "moderate",
+          "mitigation_strategies": [
+            "prime_boost",
+            "alternative_vectors"
+          ]
+        },
+        "insert_stability": {
+          "genetic_stability": "good",
+          "expression_level": "high",
+          "duration": "transient"
+        },
+        "biodistribution": {
+          "target_tissues": [
+            "muscle",
+            "draining_lymph_nodes"
+          ],
+          "systemic_exposure": "limited",
+          "clearance_mechanism": "immune_mediated"
+        }
+      },
+      "manufacturing": {
+        "production_system": "HEK293_cells",
+        "purification_method": "cesium_chloride_gradient",
+        "yield_particles_per_ml": 1000000000000.0,
+        "purity_percentage": 90,
+        "production_time_weeks": 4,
+        "batch_size_doses": 50000,
+        "cost_per_dose_usd": 45.0,
+        "scalability": "medium",
+        "quality_control": [
+          "vector_genome_titer",
+          "infectious_titer",
+          "purity_sds_page",
+          "sterility",
+          "endotoxin"
+        ]
+      },
+      "predicted_efficacy": {
+        "predicted_efficacy": 0.8460000000000001,
+        "confidence_interval": [
+          0.6960000000000001,
+          0.9460000000000001
+        ],
+        "expected_immune_response": {
+          "antibody_response": "strong",
+          "cd8_response": "very_strong",
+          "cd4_response": "strong",
+          "memory_formation": "excellent"
+        }
+      },
+      "safety_profile": {
+        "overall_safety_score": 0.8,
+        "known_risks": [
+          "injection_site_reactions",
+          "flu_like_symptoms",
+          "rare_thrombotic_events"
+        ],
+        "contraindications": [
+          "severe_immunodeficiency",
+          "pregnancy_caution"
+        ],
+        "monitoring_requirements": [
+          "platelet_count",
+          "coagulation_parameters"
+        ]
+      },
+      "regulatory_considerations": {
+        "regulatory_pathway": "biologics_license_application",
+        "precedent": "covid_vector_vaccines",
+        "timeline_estimate_months": 42,
+        "special_requirements": [
+          "vector_characterization",
+          "biodistribution_studies",
+          "shedding_studies"
+        ]
+      }
+    },
+    "peptide": {
+      "platform": "peptide",
+      "selected_peptides": [
+        {
+          "id": "epitope_1",
+          "sequence": "YLQPRTFLL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.85,
+          "properties": {
+            "length": 9,
+            "molecular_weight_da": 990,
+            "hydrophobicity": 0.28888888888888886,
+            "net_charge": 1,
+            "polar_residue_fraction": 0.4444444444444444,
+            "solubility_prediction": "moderate",
+            "stability_prediction": "stable",
+            "aggregation_propensity": "low"
+          },
+          "optimizations": {
+            "optimized_sequence": "YLQPRTFLL",
+            "modifications": [],
+            "rationale": []
+          },
+          "final_sequence": "YLQPRTFLL"
+        },
+        {
+          "id": "epitope_2",
+          "sequence": "KIADYNYKL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.78,
+          "properties": {
+            "length": 9,
+            "molecular_weight_da": 990,
+            "hydrophobicity": -0.8111111111111111,
+            "net_charge": 1,
+            "polar_residue_fraction": 0.6666666666666666,
+            "solubility_prediction": "good",
+            "stability_prediction": "stable",
+            "aggregation_propensity": "low"
+          },
+          "optimizations": {
+            "optimized_sequence": "KIADYNYKL",
+            "modifications": [],
+            "rationale": []
+          },
+          "final_sequence": "KIADYNYKL"
+        },
+        {
+          "id": "epitope_3",
+          "sequence": "SLYNTVATL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.72,
+          "properties": {
+            "length": 9,
+            "molecular_weight_da": 990,
+            "hydrophobicity": 0.7333333333333333,
+            "net_charge": 0,
+            "polar_residue_fraction": 0.5555555555555556,
+            "solubility_prediction": "moderate",
+            "stability_prediction": "stable",
+            "aggregation_propensity": "low"
+          },
+          "optimizations": {
+            "optimized_sequence": "SLYNTVATL",
+            "modifications": [],
+            "rationale": []
+          },
+          "final_sequence": "SLYNTVATL"
+        },
+        {
+          "id": "epitope_4",
+          "sequence": "GILGFVFTL",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.68,
+          "properties": {
+            "length": 9,
+            "molecular_weight_da": 990,
+            "hydrophobicity": 2.266666666666667,
+            "net_charge": 0,
+            "polar_residue_fraction": 0.1111111111111111,
+            "solubility_prediction": "poor",
+            "stability_prediction": "stable",
+            "aggregation_propensity": "moderate"
+          },
+          "optimizations": {
+            "optimized_sequence": "GILGFVFTL",
+            "modifications": [
+              "add_solubilizing_tag"
+            ],
+            "rationale": [
+              "Improve solubility with hydrophilic tag"
+            ]
+          },
+          "final_sequence": "GILGFVFTL"
+        },
+        {
+          "id": "epitope_5",
+          "sequence": "FIAGLIAIV",
+          "epitope_type": "T-cell",
+          "prediction_score": 0.65,
+          "properties": {
+            "length": 9,
+            "molecular_weight_da": 990,
+            "hydrophobicity": 3.0555555555555554,
+            "net_charge": 0,
+            "polar_residue_fraction": 0.0,
+            "solubility_prediction": "poor",
+            "stability_prediction": "stable",
+            "aggregation_propensity": "high"
+          },
+          "optimizations": {
+            "optimized_sequence": "FIAGLIAIV",
+            "modifications": [
+              "add_solubilizing_tag",
+              "spacer_residues"
+            ],
+            "rationale": [
+              "Improve solubility with hydrophilic tag",
+              "Add spacer residues to prevent aggregation"
+            ]
+          },
+          "final_sequence": "FIAGLIAIV"
+        }
+      ],
+      "adjuvant_system": {
+        "adjuvant_name": "MF59",
+        "selection_score": 0.9500000000000001,
+        "properties": {
+          "type": "oil_in_water_emulsion",
+          "mechanism": "immune_activation",
+          "immune_response": "Th1/Th2_balanced",
+          "compatibility": [
+            "peptide",
+            "protein_subunit"
+          ],
+          "safety_profile": "good",
+          "cost": "medium"
+        },
+        "dosage_recommendation": {
+          "amount_ml": 0.5,
+          "volume_ml": 0.5
+        },
+        "administration_route": "intramuscular"
+      },
+      "formulation": {
+        "peptide_concentration_mg_ml": 1.0,
+        "total_peptide_dose_mg": 0.1,
+        "adjuvant_system": {
+          "adjuvant_name": "MF59",
+          "selection_score": 0.9500000000000001,
+          "properties": {
+            "type": "oil_in_water_emulsion",
+            "mechanism": "immune_activation",
+            "immune_response": "Th1/Th2_balanced",
+            "compatibility": [
+              "peptide",
+              "protein_subunit"
+            ],
+            "safety_profile": "good",
+            "cost": "medium"
+          },
+          "dosage_recommendation": {
+            "amount_ml": 0.5,
+            "volume_ml": 0.5
+          },
+          "administration_route": "intramuscular"
+        },
+        "buffer_system": "phosphate_buffered_saline",
+        "ph": 7.4,
+        "osmolality_mosm_kg": 300,
+        "preservative": "none",
+        "stabilizers": [
+          "sucrose",
+          "polysorbate_80"
+        ],
+        "storage_conditions": {
+          "temperature_c": 4,
+          "light_protection": true,
+          "shelf_life_months": 24
+        },
+        "administration": {
+          "route": "intramuscular",
+          "volume_ml": 0.5,
+          "injection_site": "deltoid_muscle"
+        }
+      },
+      "manufacturing": {
+        "synthesis_method": "solid_phase_peptide_synthesis",
+        "purification_method": "reverse_phase_hplc",
+        "yield_percentage": 75,
+        "purity_percentage": 98,
+        "production_time_weeks": 2,
+        "batch_size_doses": 100000,
+        "cost_per_dose_usd": 25.0,
+        "scalability": "high",
+        "quality_control": [
+          "mass_spectrometry",
+          "amino_acid_analysis",
+          "hplc_purity",
+          "endotoxin_testing",
+          "sterility"
+        ]
+      },
+      "predicted_efficacy": {
+        "predicted_efficacy": 0.9785,
+        "confidence_interval": [
+          0.8585,
+          1.0585
+        ],
+        "expected_immune_response": {
+          "antibody_response": "moderate",
+          "cd8_response": "strong",
+          "cd4_response": "strong",
+          "memory_formation": "good"
+        }
+      },
+      "safety_profile": {
+        "overall_safety_score": 0.9,
+        "known_risks": [
+          "injection_site_reactions",
+          "adjuvant_related_reactions"
+        ],
+        "contraindications": [
+          "known_peptide_allergies",
+          "adjuvant_specific_contraindications"
+        ],
+        "special_populations": {
+          "pregnancy": "generally_safe",
+          "pediatric": "safe_with_dose_adjustment",
+          "elderly": "safe",
+          "immunocompromised": "safe_but_reduced_efficacy"
+        }
+      },
+      "regulatory_considerations": {
+        "regulatory_pathway": "biologics_license_application",
+        "precedent": "established_peptide_vaccines",
+        "timeline_estimate_months": 30,
+        "key_requirements": [
+          "peptide_characterization",
+          "adjuvant_qualification",
+          "nonclinical_studies",
+          "clinical_trials"
+        ]
+      }
+    },
+    "protein_subunit": {
+      "platform": "protein_subunit",
+      "protein_design": {
+        "signal_peptide": "native_or_optimized",
+        "epitope_regions": [
+          {
+            "id": "epitope_1",
+            "sequence": "YLQPRTFLL",
+            "epitope_type": "T-cell",
+            "prediction_score": 0.85
+          },
+          {
+            "id": "epitope_2",
+            "sequence": "KIADYNYKL",
+            "epitope_type": "T-cell",
+            "prediction_score": 0.78
+          },
+          {
+            "id": "epitope_3",
+            "sequence": "SLYNTVATL",
+            "epitope_type": "T-cell",
+            "prediction_score": 0.72
+          },
+          {
+            "id": "epitope_4",
+            "sequence": "GILGFVFTL",
+            "epitope_type": "T-cell",
+            "prediction_score": 0.68
+          },
+          {
+            "id": "epitope_5",
+            "sequence": "FIAGLIAIV",
+            "epitope_type": "T-cell",
+            "prediction_score": 0.65
+          }
+        ],
+        "linker_sequences": [
+          "GGSG",
+          "EAAAK"
+        ],
+        "purification_tag": "his6_tag",
+        "total_length_aa": 61,
+        "molecular_weight_kda": 6.71,
+        "predicted_structure": "mixed_alpha_beta",
+        "solubility_prediction": "good"
+      },
+      "expression_system": {
+        "system": "E.coli",
+        "properties": {
+          "cost": "low",
+          "speed": "fast",
+          "yield": "high",
+          "post_translational_modifications": false,
+          "endotoxin_risk": true,
+          "scalability": "excellent"
+        },
+        "strain_recommendation": "BL21_DE3"
+      },
+      "purification_strategy": {
+        "purification_steps": [
+          {
+            "step": "immobilized_metal_affinity_chromatography",
+            "resin": "ni_nta",
+            "expected_purity": 85,
+            "yield": 80
+          },
+          {
+            "step": "size_exclusion_chromatography",
+            "purpose": "aggregate_removal",
+            "expected_purity": 95,
+            "yield": 90
+          },
+          {
+            "step": "endotoxin_removal",
+            "method": "polymyxin_b_chromatography",
+            "target_level": "<1_EU_mg",
+            "yield": 95
+          }
+        ],
+        "overall_yield": 68,
+        "final_purity": 95,
+        "endotoxin_level": "<1_EU_mg",
+        "process_time_days": 3
+      },
+      "adjuvant_system": {
+        "adjuvant_name": "MF59",
+        "selection_score": 0.9500000000000001,
+        "properties": {
+          "type": "oil_in_water_emulsion",
+          "mechanism": "immune_activation",
+          "immune_response": "Th1/Th2_balanced",
+          "compatibility": [
+            "peptide",
+            "protein_subunit"
+          ],
+          "safety_profile": "good",
+          "cost": "medium"
+        },
+        "dosage_recommendation": {
+          "amount_ml": 0.5,
+          "volume_ml": 0.5
+        },
+        "administration_route": "intramuscular"
+      },
+      "manufacturing": {
+        "fermentation_time_hours": 48,
+        "harvest_yield_g_l": 2.0,
+        "purification_yield_percentage": 68,
+        "final_concentration_mg_ml": 10,
+        "batch_size_doses": 75000,
+        "production_time_weeks": 3,
+        "cost_per_dose_usd": 20.0,
+        "scalability": "high",
+        "quality_control": [
+          "sds_page_purity",
+          "mass_spectrometry",
+          "endotoxin_lal",
+          "bioactivity_assay",
+          "sterility"
+        ]
+      },
+      "predicted_efficacy": {
+        "predicted_efficacy": 0.80342,
+        "confidence_interval": [
+          0.70342,
+          0.90342
+        ],
+        "expected_immune_response": {
+          "antibody_response": "strong",
+          "cd8_response": "moderate",
+          "cd4_response": "strong",
+          "memory_formation": "excellent"
+        }
+      },
+      "safety_profile": {
+        "overall_safety_score": 0.88,
+        "known_risks": [
+          "injection_site_reactions",
+          "adjuvant_related_reactions",
+          "rare_allergic_reactions"
+        ],
+        "contraindications": [
+          "known_protein_allergies",
+          "adjuvant_contraindications"
+        ],
+        "special_populations": {
+          "pregnancy": "generally_safe",
+          "pediatric": "safe",
+          "elderly": "safe",
+          "immunocompromised": "safe_but_reduced_response"
+        }
+      },
+      "regulatory_considerations": {
+        "regulatory_pathway": "biologics_license_application",
+        "precedent": "established_protein_vaccines",
+        "timeline_estimate_months": 33,
+        "key_requirements": [
+          "protein_characterization",
+          "manufacturing_validation",
+          "nonclinical_studies",
+          "clinical_trials"
+        ]
+      }
+    }
+  },
+  "platform_comparison": {
+    "platform_metrics": {
+      "mRNA": {
+        "predicted_efficacy": 1.0,
+        "safety_score": 0.85,
+        "manufacturing_complexity": 0.6,
+        "cost_per_dose": 15.0,
+        "development_timeline": 36,
+        "scalability_score": 0.8,
+        "overall_score": 0.7925
+      },
+      "viral_vector": {
+        "predicted_efficacy": 0.8460000000000001,
+        "safety_score": 0.8,
+        "manufacturing_complexity": 0.6,
+        "cost_per_dose": 45.0,
+        "development_timeline": 42,
+        "scalability_score": 0.6,
+        "overall_score": 0.6438000000000001
+      },
+      "peptide": {
+        "predicted_efficacy": 0.9785,
+        "safety_score": 0.9,
+        "manufacturing_complexity": 0.6,
+        "cost_per_dose": 25.0,
+        "development_timeline": 30,
+        "scalability_score": 0.8,
+        "overall_score": 0.7885500000000001
+      },
+      "protein_subunit": {
+        "predicted_efficacy": 0.80342,
+        "safety_score": 0.88,
+        "manufacturing_complexity": 0.6,
+        "cost_per_dose": 20.0,
+        "development_timeline": 33,
+        "scalability_score": 0.8,
+        "overall_score": 0.7360260000000001
+      }
+    },
+    "ranked_platforms": [
+      "mRNA",
+      "peptide",
+      "protein_subunit",
+      "viral_vector"
+    ],
+    "top_recommendation": "mRNA",
+    "comparison_summary": {
+      "best_efficacy": {
+        "platform": "mRNA",
+        "score": 1.0
+      },
+      "best_safety": {
+        "platform": "peptide",
+        "score": 0.9
+      },
+      "lowest_cost": {
+        "platform": "mRNA",
+        "cost": 15.0
+      },
+      "fastest_development": {
+        "platform": "peptide",
+        "months": 30
+      },
+      "average_efficacy": 0.90698,
+      "average_safety": 0.8574999999999999,
+      "cost_range": [
+        15.0,
+        45.0
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "type": "primary_recommendation",
+      "platform": "mRNA",
+      "priority": "high",
+      "rationale": "mRNA shows the best overall profile for cancer",
+      "next_steps": [
+        "Conduct detailed feasibility study",
+        "Initiate preclinical development",
+        "Engage with regulatory authorities"
+      ]
+    },
+    {
+      "type": "alternative_recommendation",
+      "platform": "peptide",
+      "priority": "medium",
+      "rationale": "peptide as backup or parallel development option",
+      "considerations": [
+        "Risk mitigation strategy",
+        "Different regulatory pathway",
+        "Complementary immune response profile"
+      ]
+    },
+    {
+      "type": "context_specific",
+      "recommendation": "Consider combination approaches",
+      "rationale": "Cancer vaccines often benefit from multi-modal approaches",
+      "suggestions": [
+        "Prime-boost strategies",
+        "Combination with checkpoint inhibitors",
+        "Personalized neoantigen approaches"
+      ]
+    },
+    {
+      "type": "manufacturing",
+      "recommendation": "Establish manufacturing partnerships early",
+      "rationale": "Manufacturing capabilities are critical for success",
+      "actions": [
+        "Identify qualified manufacturers",
+        "Negotiate technology transfer agreements",
+        "Plan for scale-up requirements"
+      ]
+    }
+  ],
+  "manufacturing_assessment": {
+    "overall_feasibility": "good",
+    "platform_assessments": {
+      "mRNA": {
+        "complexity_score": 0.6,
+        "scalability_score": 0.8,
+        "cost_competitiveness": "competitive",
+        "timeline_feasibility": "moderate",
+        "risk_factors": [
+          "Cold chain requirements",
+          "Lipid nanoparticle stability",
+          "RNA degradation",
+          "Specialized equipment needs"
+        ]
+      },
+      "viral_vector": {
+        "complexity_score": 0.6,
+        "scalability_score": 0.6,
+        "cost_competitiveness": "moderate",
+        "timeline_feasibility": "moderate",
+        "risk_factors": [
+          "Cell culture contamination",
+          "Vector stability",
+          "Purification complexity",
+          "Batch-to-batch variability"
+        ]
+      },
+      "peptide": {
+        "complexity_score": 0.6,
+        "scalability_score": 0.8,
+        "cost_competitiveness": "competitive",
+        "timeline_feasibility": "fast",
+        "risk_factors": [
+          "Peptide aggregation",
+          "Chemical stability",
+          "Adjuvant compatibility",
+          "Synthesis scale-up"
+        ]
+      },
+      "protein_subunit": {
+        "complexity_score": 0.6,
+        "scalability_score": 0.8,
+        "cost_competitiveness": "competitive",
+        "timeline_feasibility": "fast",
+        "risk_factors": [
+          "Protein folding",
+          "Endotoxin contamination",
+          "Expression system limitations",
+          "Purification yield"
+        ]
+      }
+    },
+    "critical_factors": [
+      "Supply chain reliability",
+      "Quality control capabilities",
+      "Regulatory compliance",
+      "Scale-up challenges",
+      "Cost optimization"
+    ],
+    "recommendations": [
+      "Conduct detailed manufacturing feasibility studies",
+      "Establish quality by design principles",
+      "Plan for regulatory inspections",
+      "Develop robust supply chain strategies",
+      "Implement continuous improvement processes"
+    ]
+  }
+}

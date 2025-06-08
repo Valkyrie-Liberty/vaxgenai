@@ -1,0 +1,32 @@
+{
+  "selected_epitopes": [
+    "epitope_1",
+    "epitope_2",
+    "epitope_3"
+  ],
+  "population_coverage": {
+    "global": 0.67176,
+    "european": 0.71424,
+    "east_asian": 0.5378400000000001,
+    "african": 0.62856
+  },
+  "health_equity_analysis": {
+    "coverage_disparity": {
+      "max_coverage": 0.71424,
+      "min_coverage": 0.5378400000000001,
+      "disparity_ratio": 1.3279785809906288,
+      "coverage_range": 0.1763999999999999
+    },
+    "equity_score": 0.9957316564,
+    "recommendations": [],
+    "vulnerable_populations": []
+  },
+  "optimization_summary": {
+    "total_candidate_epitopes": 5,
+    "selected_epitopes": 3,
+    "selection_efficiency": 0.6,
+    "average_coverage": 0.6381000000000001,
+    "minimum_coverage": 0.5378400000000001,
+    "coverage_variance": 0.004268343599999995
+  }
+}

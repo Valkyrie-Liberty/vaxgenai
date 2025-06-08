@@ -1,0 +1,4 @@
+type,length,allergenicity_score,toxicity_score,similarity_score
+subunit,120,0.0,0.0,0.4572873364847616
+mRNA,475,0.0,0.0,0.38667061279170234
+peptide,0,0.0,0.0,0.0
