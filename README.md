@@ -189,10 +189,6 @@ VaxGenAI implements state-of-the-art algorithms from computational immunology:
 - **AlphaFold Integration**: Conformational epitope prediction
 - **Transformer Models**: Custom immunogenicity prediction
 
-### Key Publications
-- Smith et al. (2023). "AI-Driven Vaccine Design for Cancer Immunotherapy." *Nature Biotechnology*
-- Johnson et al. (2023). "Personalized Neoantigen Vaccines Using Machine Learning." *Cell*
-- Brown et al. (2023). "Population-Scale Vaccine Optimization." *Science*
 
 ## 🤝 Contributing
 
