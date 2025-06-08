@@ -240,8 +240,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Lead**: Valkyrie-Liberty
-- **Email**: valkyrie.liberty@example.com
+- **Project Lead**: Valkyrie-Liberty, Manus AI
 - **GitHub**: https://github.com/Valkyrie-Liberty/vaxgenai
 - **Issues**: https://github.com/Valkyrie-Liberty/vaxgenai/issues
 
