@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/Valkyrie-Liberty/vaxgenai/workflows/CI/badge.svg)](https://github.com/Valkyrie-Liberty/vaxgenai/actions)
 
 VaxGenAI is a comprehensive AI-powered platform for designing vaccines against challenging diseases including cancer, HIV, and emerging pathogens. The system combines cutting-edge machine learning with immunological modeling to accelerate vaccine development from months to days.
-To inform: this project is made with Manus ai.
+To inform: this project is made with Manus AI.
 
 ## 🚀 Key Features
 
